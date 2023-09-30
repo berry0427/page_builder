@@ -1,0 +1,255 @@
+.App {
+  text-align: center;
+}
+
+
+.panel-left {
+  display: inline-block;
+  width: 80%;
+}
+
+.panel-right {
+  display: inline-block;
+  width: 20%;
+}
+
+.header-color {
+  background-color: #1b2f37 !important;
+}
+
+.button-color {
+  background-color: #ef9575 !important;
+}
+
+.side-color {
+  background-color: white !important;
+}
+
+.panel-color {
+  background-color: #f3f6f9 !important;
+}
+
+.modal-header-button-pos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cbtn-default {
+  background-color: #f3f6f9 !important;
+  color: #1b2f37 !important;
+}
+
+.cbtn-default:hover, .cbtn-default:checked {
+  background-color: #4D6670 !important;
+  color: white !important;
+}
+
+.cbtn-orange {
+  background-color: #ef9575 !important;
+  color: white !important;
+}
+
+.cbtn-orange:hover, .cbtn-orange:checked {
+  background-color: #4D6670 !important;
+  color: white !important;
+}
+
+.custom-select {
+  border: 1px solid #EDEFF1;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.custom-select:focus-visible {
+  outline: none;
+}
+
+.btn-icon-button {
+  margin: 0px !important;
+  padding: 0px !important;
+  color: black !important;
+  min-width: 0px !important;
+}
+
+.custom-toggle-btn {
+  padding: 0px !important;
+  min-height: 24px !important;
+}
+
+/* //And This is for the color of the text ↓ */
+
+.css-1t4lqmc-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  background-color: white !important;
+  color: black !important;
+}
+
+.MuiTabs-indicator {
+  display: none !important;
+}
+
+.item-text {
+  font-size: 12px !important;
+  font-weight: 550;
+}
+
+.item-text-inline {
+  margin-right: 10px !important;
+  margin-top: 10px !important;
+  display: inline-block !important;
+}
+
+.item-icon-button {
+  margin: 0px !important;
+  padding: 0px !important;
+  color: black !important;
+  min-width: 0px !important;
+}
+
+.color-panel-box {
+  border-radius: 10px;
+  border: 1px solid #EDEFF1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.color-panel-color-picker {
+  display: flex !important;
+  width: 45px;
+  margin-left: 10px !important;
+  margin-right: 0px !important;
+}
+
+.color-panel-text {
+  border-radius: 10px;
+  border: 1px solid #EDEFF1;
+  background-color: white;
+  padding: 3px;
+  height: 22px;
+  margin-top: 6px;
+}
+
+.size-panel-box {
+  border-radius: 10px !important;
+  border: 1px solid #EDEFF1;
+  padding: 20px 10px !important;
+}
+
+.size-panel-select {
+  border-radius: 10px;
+  border: 1px solid #EDEFF1;
+  position: absolute;
+  padding: 2px;
+  margin-left: calc((100% - 115px)/2);
+  margin-top: -15px;
+}
+
+.size-panel-bottom-select {
+  margin-top: -18px !important;
+}
+
+.size-panel-center-span {
+  border-radius: 10px;
+  border: 1px solid #EDEFF1;
+  display: flex;
+  padding: 2px;
+}
+
+.size-panel-center-box {
+  border-radius: 10px;
+  border: 1px solid #EDEFF1;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+}
+
+.icon-text {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.MuiSwitch-root .MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track {
+  background-color: #78ba44 !important;
+}
+
+
+/***********************  * Custom GrapesJs Css */
+.gjs-pn-panel {
+  position: relative !important;
+}
+
+.row {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: stretch !important;
+  flex-wrap: nowrap !important;
+}
+
+.column {
+  min-height: 75px !important;
+  flex-grow: 1 !important;
+  flex-basis: 100% !important;
+  overflow: auto !important;
+}
+
+.editor-clm {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.gjs-cv-canvas {
+    width: 100% !important;
+    height: 100% !important;
+    top: 0px !important;
+}
+
+
+.css-19kzrtu {
+  padding: 0px !important;
+}
+
+.css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input {
+  width: 0px !important;
+  padding: 5px 0px 5px 0px !important;
+}
+
+.css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root {
+  padding-left: 8px !important
+}
+
+
+/* circle color selector */
+
+.color-selector {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 3px;
+  position: relative;
+  padding: 5px 0px;
+  font-family: verdana;
+  background: transparent;
+  .text {
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .circle {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    margin-right: 10px;
+  }
+  .hidden {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+  }
+  span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+
+}
